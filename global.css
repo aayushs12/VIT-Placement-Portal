@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-georgia: Georgia;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+
+  /* Colors */
+  --color-gray-100: #21172f;
+  --color-gray-200: rgba(40, 20, 49, 0.5);
+  --color-lavender-100: #f7ebff;
+  --color-lavender-200: rgba(247, 235, 255, 0.3);
+  --color-lavender-300: rgba(247, 235, 255, 0.2);
+  --color-lavender-400: rgba(247, 235, 255, 0.75);
+
+  /* border radiuses */
+  --br-base: 16px;
+}
