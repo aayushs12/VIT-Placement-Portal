@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/4742440295.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.14.0/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="icon" type=="image/x-icon" href="images/favicon.ico">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #16101D;">
+<div class="container-fluid" style="background-color: #16101D;">
+    <div class="row" style="height:1200px">
+        <nav class="col-md-0.5 d-none d-md-block sidebar border border-dark" style="background-color:rgba(43, 37, 48);border-top-right-radius: 1.0rem;border-bottom-right-radius: 1.0rem;border-color: #3E3243;">
+            <div class="position-sticky" style="width: 10%;">
+                <ul class="nav flex-column align-items-center">
+                    <li class="nav-item" style="padding-bottom: 120px;">
+                        <a class="nav-link active" href="#">
+                            <i class="fa-solid fa-bars fa-xs"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-star fa-xs"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-file-lines fa-xs"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            <i class="fa-solid fa-arrow-right-from-bracket fa-xs"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#16101D; height: 8%; width: 95%;">
+<div class="container">
+    <a class="navbar-brand" href="#" style="display: flex; align-items: center;">
+        <img src="images\logo.png" alt="Logo" height="35" style="margin-right: 10px;">
+        <span style="font-size: 18px; padding-left: 30px;font-family: 'roboto';font-weight:600">VIT Placement Portal</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="navitem2">
+                <a class="nav-link" href="home.html" style="color: white;">Home</a>
+            </li>
+            <li class="navitem2">
+                <a class="nav-link" href="team.html" style="color: white;">About</a>
+            </li>
+            <li class="navitem2">
+                <a class="nav-link" href="#" style="color: white;">FAQ</a>
+            </li>
+            <li class="navitem2">
+                <a class="nav-link" href="#" style="color: white;">Contact Us</a>
+            </li>
+            <li class="navitem2">
+                <a class="nav-link" href="#" style="color: white;">
+                    <i class="fa-regular fa-bell"></i>
+                </a>
+            </li>
+            <li class="navitem2">
+                <a class="nav-link" href="#" style="color: white;">
+                    <img src="images/profile.png" alt="Profile Picture" style="border-radius: 50%;" width="30" height="30">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
+</div>
+
+<main class="col-md-10 px-md-4" style="position: absolute;bottom: 70%;left: 8%;">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <img src="images/comp1.png" alt="Company Logo" class="logo">
+        </div>
+        <div class="col-md-10">
+                    <div class="row job-details">
+        <div class="col-md-4">
+            <p><strong>Category:</strong> Super Dream</p>
+        </div>
+        <div class="col-md-4">
+            <p><strong>Type:</strong> Full time + Internship</p>
+        </div>
+        <div class="col-md-4">
+            <p><strong>Date of Visit:</strong> 30.07.2023</p>
+        </div>
+    </div>
+    <div class="row job-details">
+        <div class="col-md-4">
+            <p><strong>CTC:</strong> 30 LPA</p>
+        </div>
+        <div class="col-md-4">
+            <p><strong>Stipend:</strong> 70k</p>
+        </div>
+        <div class="col-md-4">
+            <a href="https://www.ab-inbev.com/" target="_blank" style="color: white;">Open website</a>
+        </div>
+    </div>
+        </div>
+    </div>
+<h1 class="company-name">AB InBev</h1>
+</div>
+
+</main>
+
+<div class="tabs" style="background-color: #16101D;color: white;bottom: 40%;position: absolute;padding-left: 0px;">
+
+  <input type="radio" id="tab1" name="tab-control" checked>
+  <input type="radio" id="tab2" name="tab-control">
+  <input type="radio" id="tab3" name="tab-control">
+  <input type="radio" id="tab4" name="tab-control">
+  <ul>
+    <li title="Features"><label for="tab1" role="button"><svg viewBox="0 0 24 24">
+</svg><br><span>Eligibility</span></label></li>
+    <li title="Delivery Contents"><label for="tab2" role="button"><svg viewBox="0 0 24 24">
+</svg><br><span>Selection</span></label></li>
+    <li title="Shipping"><label for="tab3" role="button"><svg viewBox="0 0 24 24">
+</svg><br><span>Placement</span></label></li>    <li title="Returns"><label for="tab4" role="button"><svg viewBox="0 0 24 24">
+</svg><br><span>Company</span></label></li>
+  </ul>
+
+  <div class="slider"><div class="indicator"></div></div>
+  <div class="content" style=" position: absolute; left: 5%; ">
+    <section>
+      <h2>Eligibility</h2>
+      <h1>Eligible Branches</h1>
+      <br />
+      <ul class="hj" style=" display: block;width:100%">
+      <li style=" text-align: left; ">B. Tech (Computer Science and Engineering)</li>
+      <li style=" text-align: left; ">B. Tech (CSE with specialization in Bioinformatics)</li>
+      <li style=" text-align: left; ">B. Tech (CSE with specialization in Data Analytics)</li>
+      <li style=" text-align: left; ">B. Tech (CSE with specialization in Information Security)</li>
+      <li style=" text-align: left; ">B. Tech (CSE with specialization in Networks and Security)</li>
+      <li style=" text-align: left; ">B. Tech (Computer Science with Specialization in Data Science)</li>
+      <li style=" text-align: left; ">B. Tech (Computer Science and Engineering and Business Systems</li>
+      <li style=" text-align: left; ">B. Tech (Computer Science and Engineering with Specialization in IoT)</li>
+      <li style=" text-align: left; ">B. Tech (Computer Science & Engg. with spec. in Artificial Intelligence and  Machine learning)</li>
+      <li style=" text-align: left; ">B.Tech (CSE) - Specialization in Blockchain Technology </li>
+      <li style=" text-align: left; ">B. Tech (Computer Science & Engg. with spec. in Cyber Physical Systems)</li>
+      <li style=" text-align: left; ">B. Tech. Computer Science and Engineering with Specialization in Artificial Intelligence</li>
+      <li style=" text-align: left; ">B. Tech (Computer Science and Engineering with Specialization in Gaming Technology)</li>
+      <li style=" text-align: left; ">B. Tech (CSE specialization in Cyber Security and Digital Forensics)</li>
+      <li style=" text-align: left; ">B. Tech (CSE) in Health Informatics</li>
+      </ul>
+<hr style="color:white;width: 150%;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);margin-top: 50px;margin-left: 0px;margin-right: 0px;">
+        <h1>Eligibility Criteria</h1>
+        <br />
+        <ul class="hj" style=" display: block;width:100%">
+        <li style=" text-align: left; ">% in X  – 60% or 6.0 CGPA</li>
+        <li style=" text-align: left; ">% in X  – 60% or 6.0 CGPA</li>
+        <li style=" text-align: left; ">In Pursuing Degree – 70% or 7.0 CGPA</li>
+        <li style=" text-align: left; ">No Standing Arrears</li>
+        <br />
+        <br />
+        </section>
+        <section style="height:900px;">
+          <h2>Selection</h2>
+          <h1>Results and Selected Students</h1>
+
+          <div class="card3" style="height:405px;width:950px;top: 110px;left: -25px;position: absolute;">
+            <div class="card-body">
+                <p class="card-text2"  style=" margin-bottom: 0px; position: absolute; top: 5px; text-align: start">Placement Summary</p>
+              <div class="container mt-4">
+            <div class="row" style="position:absolute;top:8px;margin-left:650px;">
+                <div class="" style="margin-right:15px;">
+                    <label>
+                        <input type="checkbox" id="checkbox1" onchange="showImage('image1', 'checkbox1')" > 2023
+                    </label>
+                </div>
+                <div style="margin-right:15px;">
+                    <label>
+                        <input type="checkbox" id="checkbox2" onchange="showImage('image2', 'checkbox2')"> 2022
+                    </label>
+                </div>
+                <div style="margin-right:15px;">
+                    <label>
+                        <input type="checkbox" id="checkbox3" onchange="showImage('image3', 'checkbox3')"> 2021
+                    </label>
+                </div>
+                <div style="margin-right:0px;">
+                    <label>
+                        <input type="checkbox" id="checkbox4" onchange="showImage('image4', 'checkbox4')"> 2020
+                    </label>
+                </div>
+            </div>
+            <div class="image-container">
+                <img id="image1" class="image" src="images/bargraph2.png" alt="Graph 1" style="display: block;left: 200px;top: 12px;">
+                <img id="image2" class="image" src="images/graph2.png" alt="Graph 2">
+                <img id="image3" class="image" src="images/graph3.png" alt="Graph 3">
+                <img id="image4" class="image" src="images/graph4.png" alt="Graph 4" style="height:300px;width:auto;margin-left:55px">
+            </div>
+    </div>
+
+            <div class="card2" style="background-color:#201224;color:white;height:175px;width:950px;top: 475px;left: -25px;position: absolute;border-radius:25px;">
+             <div class="card-body">
+                 <div class="container mt-4">
+                     <div class="row">
+                         <!-- Card 1 -->
+                         <div class="col-md-2 mb-4">
+                             <div class="cardpro" style=" color: #16101D; ">
+             <i class="fa-solid fa-user fa-2xl" style="padding-top: 25px;padding-bottom: 5px;"></i>
+                                 <div class="card-body text-center">
+                                     <h5 class="card-title"  style="font-size: 12px;">John Doe</h5>
+                                     <p class="card-text"  style="font-size: 12px;">20BCD0234</p>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <!-- Card 2 -->
+                         <div class="col-md-2 mb-4">
+                             <div class="cardpro">
+             <i class="fa-solid fa-user fa-2xl" style="padding-top: 25px;padding-bottom: 5px;"></i>
+                                 <div class="card-body text-center">
+                                     <h5 class="card-title" style="font-size: 12px;">Jane Doe</h5>
+                                     <p class="card-text"  style="font-size: 12px;">20BCE0235</p>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <!-- Card 3 -->
+                         <div class="col-md-2 mb-4">
+                             <div class="cardpro">
+             <i class="fa-solid fa-user fa-2xl" style="padding-top: 25px;padding-bottom: 5px;"></i>
+                                 <div class="card-body text-center">
+                                     <h5 class="card-title"  style="font-size: 12px;">Alice Eve</h5>
+                                     <p class="card-text"  style="font-size: 12px;">20BCE1236</p>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <!-- Card 4 -->
+                         <div class="col-md-2 mb-4">
+                             <div class="cardpro">
+             <i class="fa-solid fa-user fa-2xl" style="padding-top: 25px;padding-bottom: 5px;"></i>
+                                 <div class="card-body text-center">
+                                     <h5 class="card-title"  style="font-size: 12px;">Bob Paul</h5>
+                                     <p class="card-text"  style="font-size: 12px;">20BCE1137</p>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <!-- Card 5 -->
+                         <div class="col-md-2 mb-4">
+                             <div class="cardpro">
+             <i class="fa-solid fa-user fa-2xl" style="padding-top: 25px;padding-bottom: 5px;"></i>
+                                 <div class="card-body text-center">
+                                     <h5 class="card-title" style="font-size: 12px;">Eve Wilson</h5>
+                                     <p class="card-text"  style="font-size: 12px;">20BBS0238</p>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <div class="col-md-2 see-more-button">
+                             <button class="btn btn-primary" style="background:#D9D9D9;color:black;border-width:0px;">See More</button>
+                         </div>
+                     </div>
+                 </div>
+         </div>
+        </div>
+
+            </div>
+           </div>
+
+      </section>
+        <section>
+          <h2>Placement</h2>
+          <h2>Placement</h2>
+          <h1>Placement Process Details</h1>
+          <div class="col-md-2 see-more-button">
+              <button class="btn btn-primary" style="background:#E997A6;color:black;border-width:0px;position: absolute;top: -60px;left: 520px;border-radius:25px">Suggest</button>
+              <button class="btn btn-primary" style="background:#E997A6;color:black;border-width:0px;position: absolute;top: -60px;left: 620px;border-radius:25px">FAQS</button>
+
+<hr style="color:white;width: 285%;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 3500%;">
+              <p style=" position: absolute; top: 4000%; left: 250%; width: 90px; ">
+                  <hr style="color:white;width: 295%;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 3500%;left:359%;">
+                                <p style=" position: absolute; top: 4000%; left: 300%; width: 90px; ">
+                  <b>Job Roles</b>
+              </p>
+              <div class="row">
+                  <button class="btn btn-primary" style="background:#d9cfff;color: #3c1351;border-width:0px;position: absolute;top: 105px;left: 10px;"><b>Technical Analyst</b></button>
+                  <button class="btn btn-primary" style="background:#d9cfff;color: #3c1351;border-width:0px;position: absolute;top: 105px;left: 184.5px;"><b>Risk Analyst</b></button>
+                  <button class="btn btn-primary" style="background:#d9cfff;color: #3c1351;border-width:0px;position: absolute;top: 105px;left: 320px;"><b>Assistant Manager</b></button>
+              </div>
+
+              <hr style="color:white;width: 285%;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 190px;">
+                            <p style=" position: absolute; top: 500px; left: 250%; width: 90px; ">
+                                <hr style="color:white;width: 295%;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 190px;left:405%;">
+                                              <p style=" position: absolute; top: 194px; left: 290%; width: 190px; ">
+                                <b>Skills & Subjects</b>
+                            </p>
+                            <div class="row">
+                                <button class="btn btn-primary" style="background:#d9cfff;color: #3c1351;border-width:0px;position: absolute;top: 235px;left: 10px;"><b>DSA</b></button>
+                                <button class="btn btn-primary" style="background:#d9cfff;color: #3c1351;border-width:0px;position: absolute;top: 235px;left: 164.5px;"><b>Data</b></button>
+                                <button class="btn btn-primary" style="background:#d9cfff;color: #3c1351;border-width:0px;position: absolute;top: 235px;left: 240px;"><b>Python</b></button>
+                                <button class="btn btn-primary" style="background:#d9cfff;color: #3c1351;border-width:0px;position: absolute;top: 235px;left: 90px;"><b>Java</b></button>
+
+                            </div>
+
+              <hr style="color:white;width: 285%;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 300px;">
+                            <p style=" position: absolute; top: 300px; left: 250%; width: 140px; ">
+                                <hr style="color:white;width: 295%;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 300px;left:389%;">
+                                              <p style=" position: absolute; top: 305px; left: 280%; width: 190px; ">
+                                <b>Coding Round</b>
+                            </p>
+          </div>
+
+          <div class="container" style=" margin-top: 370px; margin-left: 2-; margin-left: 20px; ">
+            <div class="row">
+              <div class="col-md-12">
+            <div class="row">
+            <div class="card-icons" style="width: 30px;height: 250px;">
+                      <img src="images/profile.png" alt="Profile Picture">
+                    <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-thumbs-up"></i></button>
+                      <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-thumbs-down"></i></button>
+                      <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-flag"></i></button>
+                    </div>
+
+                <div class="card" style="width: 840px;margin-left: 50px;background: #D5D5D5;">
+                  <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, arcu eget tincidunt...</p>
+                  </div>
+                 </div>
+                </div>
+              </div>
+          </div>
+      </div>
+
+<hr style="color:white;width: 475px;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 700px;">
+                    <p style=" position: absolute;top: 700px;left: 500px;width: 140px; ">
+                        <hr style="color:white;width: 400px;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 700px;left: 705px;">
+                        <p style=" position: absolute;top: 700px;left: 500px;width: 210px; ">
+                        <b>Group Discussion Round</b>
+                    </p>
+
+      <div class="container" style=" margin-top: 120px; margin-left: 2-; margin-left: 20px; ">
+        <div class="row">
+          <div class="col-md-12">
+        <div class="row">
+        <div class="card-icons" style="width: 30px;height: 250px;">
+                  <img src="images/profile.png" alt="Profile Picture">
+                <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-thumbs-up"></i></button>
+                  <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-thumbs-down"></i></button>
+                  <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-flag"></i></button>
+                </div>
+
+            <div class="card" style="width: 840px;margin-left: 50px;background: #D5D5D5;">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, arcu eget tincidunt...</p>
+              </div>
+             </div>
+            </div>
+          </div>
+      </div>
+  </div>
+
+  <hr style="color:white;width: 475px;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 1100px;">
+                      <p style=" position: absolute;top: 700px;left: 500px;width: 140px; ">
+                          <hr style="color:white;width: 400px;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 1100px;left: 650px;">
+                          <p style=" position: absolute;top: 1105px;left: 500px;width: 210px; ">
+                          <b>Interview Round</b>
+                      </p>
+
+        <div class="container" style=" margin-top: 120px; margin-left: 2-; margin-left: 20px; ">
+          <div class="row">
+            <div class="col-md-12">
+          <div class="row">
+          <div class="card-icons" style="width: 30px;height: 250px;">
+                    <img src="images/profile.png" alt="Profile Picture">
+                  <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-thumbs-up"></i></button>
+                    <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-thumbs-down"></i></button>
+                    <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-flag"></i></button>
+                  </div>
+
+              <div class="card" style="width: 840px;margin-left: 50px;background: #D5D5D5;">
+                <div class="card-body">
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, arcu eget tincidunt...</p>
+                </div>
+               </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <hr style="color:white;width: 475px;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 1500px;">
+                        <p style=" position: absolute;top: 1500px;left: 500px;width: 140px; ">
+                            <hr style="color:white;width: 400px;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 1500px;left: 650px;">
+                            <p style=" position: absolute;top: 1505px;left: 500px;width: 210px; ">
+                            <b>Resources Used</b>
+                        </p>
+
+          <div class="container" style=" margin-top: 120px; margin-left: 2-; margin-left: 20px; ">
+            <div class="row">
+              <div class="col-md-12">
+            <div class="row">
+            <div class="card-icons" style="width: 30px;height: 250px;">
+                      <img src="images/profile.png" alt="Profile Picture">
+                    <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-thumbs-up"></i></button>
+                      <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-thumbs-down"></i></button>
+                      <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-flag"></i></button>
+                    </div>
+
+                <div class="card" style="width: 840px;margin-left: 50px;background: #D5D5D5;">
+                  <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, arcu eget tincidunt...</p>
+                  </div>
+                 </div>
+                </div>
+              </div>
+          </div>
+      </div>
+
+  </section>
+          <section>
+          <h2>Companys</h2>
+          <h1>Company Culture & Work Experience</h1>
+          <div class="col-md-2 see-more-button">
+              <button class="btn btn-primary" style="background:#E997A6;color:black;border-width:0px;position: absolute;top: -60px;left: 690px;border-radius:25px">Add</button>
+<hr style="color:white;width: 260%;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 3500%;">
+              <p style=" position: absolute; top: 4000%; left: 250%; width: 90px; ">
+                  <hr style="color:white;width: 300%;height: 10px;margin-bottom: 30px;border-top: 1px solid rgb(255 255 255 / 90%);position: absolute;top: 3500%;left:330%;">
+                                <p style=" position: absolute; top: 4000%; left: 270%; width: 90px; ">
+                  <b>Job Roles</b>
+              </p>
+              <div class="row">
+                  <button class="btn btn-primary" style="background:#d9cfff;color: #3c1351;border-width:0px;position: absolute;top: 105px;left: 10px;"><b>Technical Analyst</b></button>
+                  <button class="btn btn-primary" style="background:#d9cfff;color: #3c1351;border-width:0px;position: absolute;top: 105px;left: 184.5px;"><b>Risk Analyst</b></button>
+                  <button class="btn btn-primary" style="background:#d9cfff;color: #3c1351;border-width:0px;position: absolute;top: 105px;left: 320px;"><b>Assistant Manager</b></button>
+              </div>
+
+          </div>
+          <div class="container" style=" margin-top: 200px; margin-left: 2-; margin-left: 20px; ">
+            <div class="row">
+              <div class="col-md-12">
+            <div class="row">
+            <div class="card-icons" style="width: 30px;height: 250px;">
+                      <img src="images/profile.png" alt="Profile Picture">
+                    <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-thumbs-up"></i></button>
+                      <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-thumbs-down"></i></button>
+                      <button class="btn btn-dark" style="background-color: #16101D;border-color: #16101D; "><i class="fa-regular fa-flag"></i></button>
+                    </div>
+
+                <div class="card" style="width: 840px;margin-left: 50px;background: #D5D5D5;">
+                  <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, arcu eget tincidunt...</p>
+                  </div>
+                 </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+<footer style="background-color:#1E1024;color:white;height: 15%;padding-bottom: 10px;padding-top: 10px;padding-left: 0px;margin-left: 0px;margin-bottom: 0px;position: absolute;width: 100%;left: 0px;top: 2300px;">
+<div class="container text-center">
+  <p>Disclaimer : Data is from previous years recruitments</p>
+  <p>Copyright © VIT, Vellore-632 014.</p>
+</div>
+</footer>
+</div>
+
+<script>
+	function showImage(imageId, checkboxId) {
+		var image = document.getElementById(imageId);
+		var checkbox = document.getElementById(checkboxId);
+
+		if (checkbox.checked) {
+			image.style.display = "block";
+		} else {
+			image.style.display = "none";
+		}
+	}
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>-
